@@ -63,11 +63,11 @@ export default function Home() {
         <div
         >
             {/* Mobile-friendly nav */}
-            <header className="fixed top-0 w-full bg-gray-900 px-4 py-3 flex items-center md:justify-center justify-between text-blue-400 shadow-xl z-50 sm:py-4">
+            <header className="fixed top-0 w-full bg-gray-900 px-4 py-3 flex items-center lg:justify-center justify-between text-blue-400 shadow-xl z-50 sm:py-4">
                 <div className="md:hidden text-xl sm:text-2xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
                     Sebastian Mateo
                 </div>
-                <div className="sm:hidden">
+                <div className="md:hidden">
                     <button
                         onClick={() => setMenuOpen(!menuOpen)}
                         className="focus:outline-none text-blue-400 text-2xl"
@@ -75,7 +75,7 @@ export default function Home() {
                         {menuOpen ? <FaTimes /> : <FaBars />}
                     </button>
                 </div>
-                <nav className="hidden sm:flex space-x-6">
+                <nav className="hidden md:flex space-x-6">
                     {navItems.map((item) => (
                         <a
                             key={item.label}
@@ -91,7 +91,7 @@ export default function Home() {
 
             {/* Mobile Menu */}
             {menuOpen && (
-                <motion.nav className="sm:hidden fixed top-13 left-0 w-full bg-gray-900 px-4 py-4 flex flex-col space-y-4 text-blue-400 z-50 shadow-xl"
+                <motion.nav className="md:hidden fixed top-13 left-0 w-full bg-gray-900 px-4 py-4 flex flex-col space-y-4 text-blue-400 z-50 shadow-xl"
                             initial={{ opacity: 0, scale: 0 }}
                             animate={{ opacity: 1, scale: 1 }}
                             exit={{ opacity: 0, scale: 0 }}
