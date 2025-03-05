@@ -273,7 +273,7 @@ export default function Home() {
                     <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-400 flex items-center gap-3">
                         <AiOutlineMail className="text-3xl sm:text-4xl md:text-5xl"/> Contact
                     </h2>
-                    <p className="text-gray-400 mt-4 sm:mt-6 text-base sm:text-lg md:text-xl leading-relaxed">Montevideo, Uruguay <br/> (+598) 99257188 <br/> sebastian.mateo85@gmail.com</p>
+                    <p className="text-gray-400 mt-4 sm:mt-6 text-base sm:text-lg md:text-xl leading-relaxed">Montevideo, Uruguay <br/> sebastian.mateo85@gmail.com</p>
                     <div className="flex space-x-4 sm:space-x-8 mt-4 sm:mt-6">
                         <a href="mailto:sebastian.mateo85@gmail.com" className="text-2xl sm:text-3xl text-blue-400 hover:text-blue-300"><FaEnvelope/></a>
                         <a href="https://www.linkedin.com/in/sebastian-mateo-horta" className="text-2xl sm:text-3xl text-blue-400 hover:text-blue-300"><FaLinkedin/></a>
