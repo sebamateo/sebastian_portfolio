@@ -37,7 +37,7 @@ export default function Home() {
         },
     };
     // Smooth scrolling function
-    const handleSmoothScroll = useCallback((e, targetId) => {
+    const handleSmoothScroll = useCallback((e: { preventDefault: () => void; }, targetId: string) => {
         e.preventDefault();
         const section = document.getElementById(targetId);
         if (section) {
@@ -70,6 +70,18 @@ export default function Home() {
                 >
                     Sebastian Mateo
                 </motion.h1>
+                <motion.div className="mt-6" initial={{ opacity: 0, scale: 0 }}
+                     animate={{ opacity: 1, scale: 1 }}
+                     transition={{
+                         duration: 1,
+                         scale: { type: "spring", visualDuration: 0.4, bounce: 0.1 },
+                     }}>
+                    <motion.img className="w-32 h-32 rounded-full bg-gray-700 mx-auto" src="/profile_photo.jpg" alt="profile_photo"
+                                initial={{ opacity: 0, y: -50 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 1 }}/>
+                    {/* Replace the above div with your actual <img src="/profile.jpg" /> once you have a real picture */}
+                </motion.div>
                 <motion.p className="text-xl mt-4 text-gray-300 font-light" variants={fadeInUp}>Full-Stack Developer | AI & SaaS Expert</motion.p>
             </header>
             <div className="flex justify-start flex-col">
@@ -173,7 +185,7 @@ export default function Home() {
                 <div className="flex space-x-8 mt-6">
                     <a href="mailto:sebastian.mateo85@gmail.com" className="text-3xl text-blue-400 hover:text-blue-300"><FaEnvelope/></a>
                     <a href="https://www.linkedin.com/in/sebastian-mateo-horta" className="text-3xl text-blue-400 hover:text-blue-300"><FaLinkedin/></a>
-                    <a href="https://github.com" className="text-3xl text-blue-400 hover:text-blue-300"><FaGithub/></a>
+                    <a href="https://github.com/sebamateo" className="text-3xl text-blue-400 hover:text-blue-300"><FaGithub/></a>
                 </div>
             </motion.section>
             </div>
