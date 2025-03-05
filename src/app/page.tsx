@@ -149,7 +149,7 @@ export default function Home() {
             </header>
 
             <div className="flex flex-col px-4 sm:px-6 md:px-8 mt-10">
-                <motion.section id="about" className="scroll-mt-24 mt-16 text-center" variants={fadeInUp}>
+                <motion.section id="about" className="scroll-mt-24 mt-8 text-center" variants={fadeInUp}>
                     <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-400 flex items-center justify-center gap-3">
                         <AiOutlineUser className="text-3xl sm:text-4xl md:text-5xl"/> About Me
                     </h2>
