@@ -56,7 +56,7 @@ export default function Home() {
                 <a href="#skills" onClick={(e) => handleSmoothScroll(e, 'skills')} className="hover:text-blue-300 transition">Skills</a>
                 <a href="#strengths" onClick={(e) => handleSmoothScroll(e, 'strengths')} className="hover:text-blue-300 transition">Strengths</a>
                 <a href="#experience" onClick={(e) => handleSmoothScroll(e, 'experience')} className="hover:text-blue-300 transition">Experience</a>
-                <a href="#achievements" onClick={(e) => handleSmoothScroll(e, 'achievements')} className="hover:text-blue-300 transition">AI Achievements</a>
+                <a href="#achievements" onClick={(e) => handleSmoothScroll(e, 'achievements')} className="hover:text-blue-300 transition">AI</a>
                 <a href="#education" onClick={(e) => handleSmoothScroll(e, 'education')} className="hover:text-blue-300 transition">Education</a>
                 <a href="#languages" onClick={(e) => handleSmoothScroll(e, 'languages')} className="hover:text-blue-300 transition">Languages</a>
                 <a href="#contact" onClick={(e) => handleSmoothScroll(e, 'contact')} className="hover:text-blue-300 transition">Contact</a>
