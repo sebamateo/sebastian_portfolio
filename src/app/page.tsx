@@ -63,8 +63,8 @@ export default function Home() {
         <div
         >
             {/* Mobile-friendly nav */}
-            <header className="fixed top-0 w-full bg-gray-900 px-4 py-3 flex items-center justify-between text-blue-400 shadow-xl z-50 sm:py-4">
-                <div className="md:hidden lg:hidden text-xl sm:text-2xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
+            <header className="fixed top-0 w-full bg-gray-900 px-4 py-3 flex items-center md:justify-center justify-between text-blue-400 shadow-xl z-50 sm:py-4">
+                <div className="md:hidden text-xl sm:text-2xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
                     Sebastian Mateo
                 </div>
                 <div className="sm:hidden">
@@ -91,7 +91,12 @@ export default function Home() {
 
             {/* Mobile Menu */}
             {menuOpen && (
-                <nav className="sm:hidden fixed top-14 left-0 w-full bg-gray-900 px-4 py-4 flex flex-col space-y-4 text-blue-400 z-50 shadow-xl">
+                <motion.nav className="sm:hidden fixed top-13 left-0 w-full bg-gray-900 px-4 py-4 flex flex-col space-y-4 text-blue-400 z-50 shadow-xl"
+                            initial={{ opacity: 0, scale: 0 }}
+                            animate={{ opacity: 1, scale: 1 }}
+                            exit={{ opacity: 0, scale: 0 }}
+                            transition={{ duration: 0.4 }}
+                >
                     {navItems.map((item) => (
                         <a
                             key={item.label}
@@ -102,7 +107,7 @@ export default function Home() {
                             {item.label}
                         </a>
                     ))}
-                </nav>
+                </motion.nav>
             )}
 
             <motion.div
@@ -144,7 +149,7 @@ export default function Home() {
             </header>
 
             <div className="flex flex-col px-4 sm:px-6 md:px-8 mt-10">
-                <motion.section id="about" className="scroll-mt-32 mt-16 text-center" variants={fadeInUp}>
+                <motion.section id="about" className="scroll-mt-24 mt-16 text-center" variants={fadeInUp}>
                     <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-400 flex items-center justify-center gap-3">
                         <AiOutlineUser className="text-3xl sm:text-4xl md:text-5xl"/> About Me
                     </h2>
@@ -153,7 +158,7 @@ export default function Home() {
                     </p>
                 </motion.section>
 
-                <motion.section id="skills" className="scroll-mt-32 mt-16" variants={fadeInUp}>
+                <motion.section id="skills" className="scroll-mt-24 mt-16" variants={fadeInUp}>
                     <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-400 flex items-center gap-3">
                         <AiOutlineSetting className="text-3xl sm:text-4xl md:text-5xl"/> Skills
                     </h2>
@@ -167,7 +172,7 @@ export default function Home() {
                     </ul>
                 </motion.section>
 
-                <motion.section id="strengths" className="scroll-mt-32 mt-16" variants={fadeInUp}>
+                <motion.section id="strengths" className="scroll-mt-24 mt-16" variants={fadeInUp}>
                     <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-400 flex items-center gap-3">
                         <AiOutlineThunderbolt className="text-3xl sm:text-4xl md:text-5xl"/> Strengths
                     </h2>
@@ -179,7 +184,7 @@ export default function Home() {
                     </ul>
                 </motion.section>
 
-                <motion.section id="experience" className="scroll-mt-32 mt-16" variants={fadeInUp}>
+                <motion.section id="experience" className="scroll-mt-24 mt-16" variants={fadeInUp}>
                     <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-400 flex items-center gap-3">
                         <AiOutlineCluster className="text-3xl sm:text-4xl md:text-5xl"/> Experience
                     </h2>
@@ -235,7 +240,7 @@ export default function Home() {
                     </div>
                 </motion.section>
 
-                <motion.section id="achievements" className="scroll-mt-32 mt-16" variants={fadeInUp}>
+                <motion.section id="achievements" className="scroll-mt-24 mt-16" variants={fadeInUp}>
                     <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-400 flex items-center gap-3">
                         <AiOutlineExperiment className="text-3xl sm:text-4xl md:text-5xl"/> AI Achievements
                     </h2>
@@ -247,14 +252,14 @@ export default function Home() {
                     </ul>
                 </motion.section>
 
-                <motion.section id="education" className="scroll-mt-32 mt-16" variants={fadeInUp}>
+                <motion.section id="education" className="scroll-mt-24 mt-16" variants={fadeInUp}>
                     <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-400 flex items-center gap-3">
                         <AiOutlineBook className="text-3xl sm:text-4xl md:text-5xl"/> Education
                     </h2>
                     <p className="text-gray-400 mt-4 sm:mt-6 text-base sm:text-lg md:text-xl leading-relaxed">ORT University, Uruguay — Software Engineer (2005 - 2012)</p>
                 </motion.section>
 
-                <motion.section id="languages" className="scroll-mt-32 mt-16" variants={fadeInUp}>
+                <motion.section id="languages" className="scroll-mt-24 mt-16" variants={fadeInUp}>
                     <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-400 flex items-center gap-3">
                         <AiOutlineGlobal className="text-3xl sm:text-4xl md:text-5xl"/> Languages
                     </h2>
@@ -264,7 +269,7 @@ export default function Home() {
                     </ul>
                 </motion.section>
 
-                <motion.section id="contact" className="scroll-mt-32 mt-16" variants={fadeInUp}>
+                <motion.section id="contact" className="scroll-mt-24 mt-16" variants={fadeInUp}>
                     <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-400 flex items-center gap-3">
                         <AiOutlineMail className="text-3xl sm:text-4xl md:text-5xl"/> Contact
                     </h2>
@@ -279,7 +284,7 @@ export default function Home() {
 
             <motion.footer className="mt-16 sm:mt-24 text-gray-500 text-sm sm:text-base md:text-lg px-4" variants={fadeInUp}>
                 <p className="mb-2">&copy; 2025 Sebastian Mateo. All Rights Reserved.</p>
-                <a href="#top" className="text-blue-400 hover:text-blue-300 inline-flex items-center"><FaArrowUp className="mr-1"/> Back to top</a>
+                <a href="#top" className="text-blue-400 hover:text-blue-300 inline-flex items-center pb-16"><FaArrowUp className="mr-1"/> Back to top</a>
             </motion.footer>
         </motion.div>
             </div>
