@@ -50,7 +50,7 @@ export default function Home() {
         },
     };
 
-    const handleSmoothScroll = useCallback((e, targetId) => {
+    const handleSmoothScroll = useCallback((e: { preventDefault: () => void; }, targetId: string) => {
         e.preventDefault();
         const section = document.getElementById(targetId);
         if (section) {
