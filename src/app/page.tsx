@@ -203,7 +203,7 @@ export default function Home() {
                         <motion.div className="bg-gray-800 p-4 sm:p-6 rounded-lg" whileHover={{ scale: 1.02 }} variants={fadeInUp}>
                             <h3 className="text-xl sm:text-2xl font-semibold">BabyCenter</h3>
                             <p className="text-gray-400 text-base sm:text-lg">Senior Full Stack Developer (2018 - Present)</p>
-                            <p className="text-gray-400 text-sm sm:text-base mt-2">BabyCenter is the world's number one digital parenting resource, reaching millions of new and expectant parents monthly through global websites, mobile apps, and online communities. Technologies: React.js, GraphQL.js, Node.js, MySQL, AWS, Java Spring, and more.</p>
+                            <p className="text-gray-400 text-sm sm:text-base mt-2">BabyCenter is the world&apos;s number one digital parenting resource, reaching millions of new and expectant parents monthly through global websites, mobile apps, and online communities. Technologies: React.js, GraphQL.js, Node.js, MySQL, AWS, Java Spring, and more.</p>
                             <ul className="list-disc ml-4 sm:ml-6 mt-2 text-gray-400 space-y-1 text-sm sm:text-base md:text-lg">
                                 <li>Led the development and enhancement of React.js and Next.js applications, improving performance and scalability.</li>
                                 <li>Developed GraphQL APIs and optimized Node.js services for efficient data retrieval.</li>
