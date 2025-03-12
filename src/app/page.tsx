@@ -203,6 +203,7 @@ export default function Home() {
                         <motion.div className="bg-gray-800 p-4 sm:p-6 rounded-lg" whileHover={{ scale: 1.02 }} variants={fadeInUp}>
                             <h3 className="text-xl sm:text-2xl font-semibold">BabyCenter</h3>
                             <p className="text-gray-400 text-base sm:text-lg">Senior Full Stack Developer (2018 - Present)</p>
+                            <p className="text-gray-400 text-sm sm:text-base mt-2">BabyCenter is the world's number one digital parenting resource, reaching millions of new and expectant parents monthly through global websites, mobile apps, and online communities. Technologies: React.js, GraphQL.js, Node.js, MySQL, AWS, Java Spring, and more.</p>
                             <ul className="list-disc ml-4 sm:ml-6 mt-2 text-gray-400 space-y-1 text-sm sm:text-base md:text-lg">
                                 <li>Led the development and enhancement of React.js and Next.js applications, improving performance and scalability.</li>
                                 <li>Developed GraphQL APIs and optimized Node.js services for efficient data retrieval.</li>
@@ -219,19 +220,49 @@ export default function Home() {
                         <motion.div className="bg-gray-800 p-4 sm:p-6 rounded-lg" whileHover={{ scale: 1.02 }} variants={fadeInUp}>
                             <h3 className="text-xl sm:text-2xl font-semibold">The Rounds</h3>
                             <p className="text-gray-400 text-base sm:text-lg">Senior Full Stack Developer (2022 - 2023)</p>
+                            <p className="text-gray-400 text-sm sm:text-base mt-2">The Rounds is a zero-waste refill and delivery service of household essentials. Technologies: React.js, GraphQL.js, Node.js, PostgreSQL, AWS.</p>
                             <ul className="list-disc ml-4 sm:ml-6 mt-2 text-gray-400 space-y-1 text-sm sm:text-base md:text-lg">
-                                <li>Enhanced client experience by integrating personalized product recommendations using AI.</li>
+                                <li>Enhanced client experience through the integration of innovative features and functionalities in their web applications.</li>
                                 <li>Improved front-end code maintainability and performance by implementing best practices.</li>
-                                <li>Led key feature development for their zero-waste delivery service platform.</li>
+                                <li>Designed and implemented a product recommendation system based on AI custom Algorithm, taking in consideration users buying behavior.</li>
+                                The Rounds is a zero-waste refill and delivery service of household essentials. Technologies: React.js, GraphQL.js, Node.js, PostgreSQL, AWS.
+                                • Enhanced client experience through the integration of innovative features and
+                                functionalities in their web applications.
+                                • Optimized front-end code through the application of best software practices, significantly
+                                improving its maintainability and readability.
+                                • Designed and implemented a product recommendation system based on AI custom
+                                Algorithm, taking in consideration users buying behavior.
                             </ul>
                             <a href="https://therounds.co" target="_blank" className="text-blue-400 hover:text-blue-300 block mt-2 text-sm sm:text-base">https://therounds.co</a>
                         </motion.div>
 
                         <motion.div className="bg-gray-800 p-4 sm:p-6 rounded-lg" whileHover={{ scale: 1.02 }} variants={fadeInUp}>
+                            <h3 className="text-xl sm:text-2xl font-semibold">Hollywood Spill, LLC</h3>
+                            <p className="text-gray-400 text-base sm:text-lg">Android Developer (2018 - 2018)</p>
+                            <p className="text-gray-400 text-sm sm:text-base mt-2">Worked as a lead Android Engineer to build a native application for a streaming game/quiz show. Technologies: Android/Kotlin, iOS, Phoenix WebSockets.</p>
+                            <ul className="list-disc ml-4 sm:ml-6 mt-2 text-gray-400 space-y-1 text-sm sm:text-base md:text-lg">
+                                <li>Implemented an Android app based on an existing iOS app.</li>
+                                <li>Implemented an event-driven design based on WebSockets.</li>
+                                <li>Fixed the Phoenix WebSockets connection and reconnection in the Android and iOS apps.</li>
+                                <li>Learned and adapted new technologies, including Kotlin, Swift, and Python, to meet specific client requirements quickly.</li>
+                            </ul>
+                        </motion.div>
+
+                        <motion.div className="bg-gray-800 p-4 sm:p-6 rounded-lg" whileHover={{ scale: 1.02 }} variants={fadeInUp}>
+                            <h3 className="text-xl sm:text-2xl font-semibold">Inpoint</h3>
+                            <p className="text-gray-400 text-base sm:text-lg">Senior Java Developer (2017 - 2018)</p>
+                            <p className="text-gray-400 text-sm sm:text-base mt-2">Aon Inpoint is the management consulting and advisory arm of Aon, the world’s leading professional services firm on Risk, Retirement, and Health. Technologies: Java Spring Boot, PostgreSQL, React.js.</p>
+                            <ul className="list-disc ml-4 sm:ml-6 mt-2 text-gray-400 space-y-1 text-sm sm:text-base md:text-lg">
+                                <li>Led the back-end development for a system that dealt with complex business logic.</li>
+                                <li>Created unit tests with more than 90% code coverage.</li>
+                                <li>Helped the project manager by leading the daily meeting calls.</li>
+                            </ul>
+                            <a href="https://www.aon.com/inpoint/default.jsp" target="_blank" className="text-blue-400 hover:text-blue-300 block mt-2 text-sm sm:text-base">https://www.aon.com/inpoint/default.jsp</a>
+                        </motion.div>
+
+                        <motion.div className="bg-gray-800 p-4 sm:p-6 rounded-lg" whileHover={{ scale: 1.02 }} variants={fadeInUp}>
                             <h3 className="text-xl sm:text-2xl font-semibold">Other Experience</h3>
                             <ul className="list-disc ml-4 sm:ml-6 mt-2 text-gray-400 space-y-1 text-sm sm:text-base md:text-lg">
-                                <li><strong>Hollywood Spill, LLC (2018):</strong> Developed a native Android Kotlin app for a live game/quiz show.</li>
-                                <li><strong>Inpoint (2017 – 2018):</strong> Led backend development using Java Spring Boot.</li>
                                 <li><strong>Pyxis (2013 – 2017):</strong> Built modern React.js & Spring Boot applications for various industries.</li>
                                 <li><strong>Inmind (2009 – 2014):</strong> Developed mobile banking web apps and multimedia recognition systems.</li>
                                 <li><strong>Tata Consultancy Services (2006 – 2009):</strong> Worked on Java EE enterprise systems.</li>
