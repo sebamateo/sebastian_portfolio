@@ -223,15 +223,8 @@ export default function Home() {
                             <p className="text-gray-400 text-sm sm:text-base mt-2">The Rounds is a zero-waste refill and delivery service of household essentials. Technologies: React.js, GraphQL.js, Node.js, PostgreSQL, AWS.</p>
                             <ul className="list-disc ml-4 sm:ml-6 mt-2 text-gray-400 space-y-1 text-sm sm:text-base md:text-lg">
                                 <li>Enhanced client experience through the integration of innovative features and functionalities in their web applications.</li>
-                                <li>Improved front-end code maintainability and performance by implementing best practices.</li>
+                                <li>Optimized front-end code through the application of best software practices, significantly improving its maintainability and readability.</li>
                                 <li>Designed and implemented a product recommendation system based on AI custom Algorithm, taking in consideration users buying behavior.</li>
-                                The Rounds is a zero-waste refill and delivery service of household essentials. Technologies: React.js, GraphQL.js, Node.js, PostgreSQL, AWS.
-                                • Enhanced client experience through the integration of innovative features and
-                                functionalities in their web applications.
-                                • Optimized front-end code through the application of best software practices, significantly
-                                improving its maintainability and readability.
-                                • Designed and implemented a product recommendation system based on AI custom
-                                Algorithm, taking in consideration users buying behavior.
                             </ul>
                             <a href="https://therounds.co" target="_blank" className="text-blue-400 hover:text-blue-300 block mt-2 text-sm sm:text-base">https://therounds.co</a>
                         </motion.div>
