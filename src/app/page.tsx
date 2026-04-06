@@ -154,7 +154,7 @@ export default function Home() {
                         <AiOutlineUser className="text-3xl sm:text-4xl md:text-5xl"/> About Me
                     </h2>
                     <p className="mt-4 sm:mt-6 text-gray-400 text-base sm:text-lg md:text-xl leading-relaxed">
-                        I am an experienced Software Engineer with 18 years in full-stack development, specializing in TypeScript, React, Next.js, Node.js, GraphQL, Java, and AWS. Passionate about AI-driven solutions using OpenAI.
+                        I am an experienced Software Engineer with 20 years in full-stack development, specializing in TypeScript, React, Next.js, Node.js, GraphQL, Java, and AWS. Passionate about AI-driven solutions using OpenAI.
                     </p>
                 </motion.section>
 
@@ -163,12 +163,12 @@ export default function Home() {
                         <AiOutlineSetting className="text-3xl sm:text-4xl md:text-5xl"/> Skills
                     </h2>
                     <ul className="list-disc text-gray-400 mt-4 sm:mt-6 text-base sm:text-lg md:text-xl leading-relaxed pl-6 space-y-2">
-                        <li><strong>Artificial Intelligence:</strong> OpenAI, GPT-based text summarization, AI-driven recommendations, LangChain</li>
+                        <li><strong>Artificial Intelligence:</strong> OpenAI, Claude, AI Agents development, AI-driven recommendations, LangChain</li>
                         <li><strong>Frontend:</strong> React.js, Next.js, TypeScript, JavaScript, HTML, CSS, Material UI (MUI), Tailwind</li>
                         <li><strong>Backend:</strong> Node.js, Express.js, GraphQL, Java Spring Boot, Java 8, JSP, Hibernate, Kotlin, Groovy</li>
                         <li><strong>Databases:</strong> MySQL, PostgreSQL, Redis, Microsoft SQL Server</li>
-                        <li><strong>Cloud & DevOps:</strong> AWS (EC2, S3, RDS, Lambda), Heroku, Docker, Jenkins</li>
-                        <li><strong>Mobile Development:</strong> Android (Kotlin), Apache Cordova</li>
+                        <li><strong>Cloud & DevOps:</strong> AWS (EC2, S3, RDS, ECS, Lambda), Heroku, Docker, Jenkins</li>
+                        <li><strong>Mobile Development:</strong> Android (Kotlin), React Native</li>
                     </ul>
                 </motion.section>
 
@@ -190,10 +190,10 @@ export default function Home() {
                     </h2>
                     <div className="mt-4 sm:mt-6 space-y-6">
                         <motion.div className="bg-gray-800 p-4 sm:p-6 rounded-lg" whileHover={{ scale: 1.02 }} variants={fadeInUp}>
-                            <h3 className="text-xl sm:text-2xl font-semibold">EternallyStream</h3>
+                            <h3 className="text-xl sm:text-2xl font-semibold">Proto Hologram</h3>
                             <p className="text-gray-400 text-base sm:text-lg">Senior Full Stack Developer (2024 - Present)</p>
                             <ul className="list-disc ml-4 sm:ml-6 mt-2 text-gray-400 space-y-1 text-sm sm:text-base md:text-lg">
-                                <li>Designed and developed an API to connect ProtoHologram avatars with OpenAI, enabling unique AI-driven personalities.</li>
+                                <li>Designed and developed AI Agents API to connect ProtoHologram avatars with OpenAI, enabling unique AI-driven personalities.</li>
                                 <li>Integrated LLM-based responses into dynamic avatar interactions, improving engagement.</li>
                                 <li>Deployed and managed the service on Heroku, ensuring high availability and scalability.</li>
                             </ul>
